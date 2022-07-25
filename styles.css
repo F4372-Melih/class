@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+#p2{
+background-color: purple;
+}
+body{
+    background-color: black;
+}
+.ortak{
+    background-color: darkcyan;
+}
+#p3{
+    background-color: darkgreen;
+    border: 5px solid red;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.container{
+    padding: 50px;
+}
+#last{
+    background-color: burlywood;
+    padding: inherit; /*only works after .container div class */
+}
